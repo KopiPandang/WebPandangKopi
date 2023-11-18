@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color: #eaeaea;
+}
+
+.container{
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-position-y: -10px;
+}
+
+.logoPandangKopi{
+    height: 200px;
+    width: 300px;
+    background-image: url("img/logoPandangKopi.JPG");
+    background-size: cover;
+    float: left;
+}
+
+.titlePandangKopi{
+    font-size: 80px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+  }
+
+.menu{
+    background-color: black;
+    text-align: center;
+}
+
+.menu a{
+    display:inline-block;
+    color: white;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:90px;
+    padding-right:90px;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    background-color: rgb(59, 56, 56);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:105px;
+    padding-right:105px;
+ }
+
+.homeAbout{
+    height: 500px;
+    width:50%;
+    float: left;
+    border-left: 5px solid black;
+    border-right: 2.5px solid black;
+    border-bottom: 2.5px solid black;
+}
+
+.homeAbout .home{
+    text-align: center;
+    padding: 10%;
+    font-size: 30px;
+    height: 250px;
+    border-bottom: 2.5px solid black;
+}
+
+.homeAbout .home a{
+    margin-top: 10px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+    background-color:black;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.homeAbout .home a:hover{
+    background-color:  rgb(59, 56, 56);
+}
+
+.homeAbout .about{
+    border-top: 2.5px solid black;
+    padding: 9%;
+    font-size: 25px;
+    text-align: center;
+}
+
+.video{
+    height: 500px;
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 25px;
+    float: right;
+    border-left: 2.5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 2.5px solid black;
+
+}
+
+.pandangKopiMenu{
+    border-top: 2.5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 2.5px solid black;
+}
+
+.coffe{
+    width: 33%;
+    height: 400px;
+    float: left;
+    border-right: 2.5px solid black;
+}
+
+.noncoffe{
+    width: 34%;
+    height: 400px;
+    float:left;
+    border-right: 2.5px solid black;
+    border-left: 2.5px solid black;
+}
+
+.food{
+    width: 33%;
+    height: 400px;
+    float: right;
+    border-left: 2.5px solid black;
+}
+
+.coffe, .noncoffe, .food{
+    padding: 20px;
+    padding-left: 50px;
+} 
+
+.coffe h1, .noncoffe h1, .food h1{
+    text-align: center;
+    margin-bottom: 30px;
+} 
+
+.coffe .menuDesc, .noncoffe .menuDesc, .food .menuDesc{
+    width: 80%;
+    float: left;
+}
+
+.coffe .price, .noncoffe .price, .food .price{
+    text-align: center;
+    width: 20%;
+    float: right;
+}
+
+.kontak{
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-top: 2.5px solid black;
+    padding: 20px;
+    text-align: left;
+}
